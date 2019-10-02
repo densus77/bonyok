@@ -30,7 +30,7 @@ $banner = "{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$de
 {$putih2}  Salam Damai Tuyuler Indonesia!!      {$red2}『 {$putih2}BOT POP STELLER{$red2} 』
 {$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}
 {$lblue2}Decode By {$abu2} :{$res} Mr_decode\n
-{$lblue2}Group Tele{$abu2}  :{$res} @SQU4AD\n";
+{$lblue2}Group Tele{$abu2}  :{$res} @silen\n";
 
 echo $banner;
 ?>
