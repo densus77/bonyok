@@ -27,10 +27,21 @@ $banner = "{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$de
 / /_/ \  \__(  <_> ) /_/ \  ___/    \     /  |   |   |   |
 \____ |\___  >____/\____ |\___  >    \___/   |___|___|___|
      \/    \/           \/    \/
-{$putih2}  Salam Damai Tuyuler Indonesia!!      {$red2}『 {$putih2}BOT POP STELLER{$red2} 』
+{$putih2}  Salam Damai Tuyuler Indonesia!!      {$red2}『 {$putih2}Bot Termux{$red2} 』
 {$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}
-{$lblue2}Decode By {$abu2} :{$res} Mr_decode\n
+{$lblue2}Dibuat Oleh {$abu2} :{$res} Anak Indonesia\n
 {$lblue2}Group Tele{$abu2}  :{$res} @jancokkau990\n";
 
 echo $banner;
+echo "\033[1;32mMasukkan Kode \033[1;30m:\033[1;0m ";
+$result="45";
+   $passw = trim(fgets(STDIN));
+    if ($passw == $result){
+       echo "gaspol";
+
+    }else{
+       $passw++;
+       echo "\033[1;31Kode Salah.......!\n";
+exit;
+}
 ?>
