@@ -32,7 +32,7 @@ $banner = "{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$des}{$des1}{$de
 {$lblue2}Dibuat Oleh {$abu2} :{$res} Anak Indonesia\n
 {$lblue2}Group Tele{$abu2}  :{$res} @jancokkau990\n";
 
-echo $banner;
+echo $banner."\n";
 echo "\033[1;32mMasukkan Kode \033[1;30m:\033[1;0m ";
 $result="45";
    $passw = trim(fgets(STDIN));
@@ -41,7 +41,7 @@ $result="45";
 
     }else{
        $passw++;
-       echo "\033[1;31Kode Salah.......!\n";
+       echo "\033[1;31 Kode Salah.......!\n";
 exit;
 }
 ?>
